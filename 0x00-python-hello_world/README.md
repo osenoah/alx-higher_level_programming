@@ -5,7 +5,7 @@ Project done during **Software Engineering studies** at **ALX**. It aims to lear
 * Shell Scripts are written in Bash 
 * Python Scripts are written with Python3 3.8.5
 * C files are compiled using `gcc` using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`
-* Tested on `Ubuntu 20.04 LTS`
+* Tested on `Ubuntu 20.04 ``LTS`
 
 ## Files
 | Filename | Description |
