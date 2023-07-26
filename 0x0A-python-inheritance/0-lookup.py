@@ -1,14 +1,9 @@
 #!/usr/bin/python3
-class MyList(list):
-    """ Class that inherits the attributes references of class list
+"""
+Contains the lookup function
+"""
 
-    Args:
-        list: class list
 
-    """
-
-    def print_sorted(self):
-        """ Method that prints the sorted list """
-        l_sorted = self.copy()
-        l_sorted.sort()
-        print(l_sorted
+def lookup(obj):
+    """returns a list of available attributes and methods of an object"""
+    return dir(obj)
